@@ -1,0 +1,36 @@
+{
+    "name": "generator-feflow-example",
+    "version": "0.0.1",
+    "description": "Feflow generator example",
+    "homepage": "https://github.com/feflow/generator-feflow-example",
+    "author": {
+      "name": "cpselvis",
+      "email": "cpselivs@tencent.com",
+      "url": "https://github.com/cpselvis"
+    },
+    "files": [
+      "generators"
+    ],
+    "main": "generators/index.js",
+    "scripts": {
+      "commitmsg": "validate-commit-msg",
+      "commit": "git-cz ",
+      "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    },
+    "configs": {
+      "compatibleVersion": ">=0.0.1"
+    },
+    "keywords": [
+      "yeoman-generator",
+      "felfow-generator"
+    ],
+    "dependencies": {
+      "yeoman-generator": "^1.0.1"
+    },
+    "devDependencies": {
+      "commitizen": "^2.3.0",
+      "validate-commit-msg": "^2.11.1",
+      "conventional-changelog-cli": "^1.2.0",
+      "husky": "^0.13.1"
+    }
+  }
